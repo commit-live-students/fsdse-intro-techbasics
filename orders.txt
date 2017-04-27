@@ -1,0 +1,30 @@
+The order number 1 is for Indian Samosa
+The order number 2 is for Chinese rice
+The order number 3 is for Chinese noddles
+The order number 4 is for Chinese Manchurian
+The order number 5 is for Italian Sandwich
+The order number 6 is for Maxican Rice
+The order number 7 is for Chicken Tandoori
+The order number 8 is for Veg Salad
+The order number 9 is for Thai Chicken
+The order number 10 is for Thai Rice
+The order number 11 is for Japanese Veg Soup
+The order number 12 is for Sushi Fish
+The order number 13 is for French Non-veg Soup
+The order number 14 is for Spanish Noodles
+The order number 15 is for Turkish Gravy
+The order number 16 is for Asian Dal
+The order number 17 is for Korean Rice
+The order number 18 is for Vietnamese Pho
+The order number 19 is for German Veg Soup
+The order number 20 is for Philippine Noodles
+The order number 21 is for African Palm Wine
+The order number 22 is for Portuguese Fry Rice
+The order number 23 is for Dal Rice
+The order number 24 is for Panner Masala
+The order number 25 is for Prawns fry
+The order number 26 is for Prawns Biryani
+The order number 27 is for Dim Sum
+The order number 28 is for Hot Dog
+The order number 29 is for Swiss Fondue
+The order number 30 is for Fish Fry
