@@ -72,14 +72,13 @@ curl -O https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
 ```
 chmod +x Anaconda2-4.3.1-Linux-x86_64.sh
 ```
-* Note :: How to install and run Anaconda is covered in next section.
+* How to install and run Anaconda is covered in next section.
 
 ## Assignments 3
 
 ### install Anaconda
 
-* Now you ready have executable Anaconda bash script downloaded in previous assignment. Now let's go ahead and install it
-* Now we can run the script:
+* Now you ready have executable Anaconda bash script downloaded in previous assignment. Now let's go ahead and install it. Now we can run the script:
 ```
 bash Anaconda2-4.3.1-Linux-x86_64.sh
 ```
@@ -87,7 +86,7 @@ bash Anaconda2-4.3.1-Linux-x86_64.sh
 ```
 output
 
-Welcome to Anaconda3 2-4.3 (by Continuum Analytics, Inc.)
+Welcome to Anaconda2 2-4.3 (by Continuum Analytics, Inc.)
 
 In order to continue the installation process, please review the license
 agreement.
@@ -99,8 +98,7 @@ output
 
 Do you approve the license terms? [yes|no]
 ```
-* As long as you agree, type yes
-* At this point, you’ll be prompted to choose the location of the installation. You can press ENTER to accept the default location, or specify a different location to modify it
+* As long as you agree, type yes. At this point, you’ll be prompted to choose the location of the installation. You can press ENTER to accept the default location, or specify a different location to modify it
 ```
 output
 
@@ -120,7 +118,7 @@ Output
 ...
 installation finished.
 Do you wish the installer to prepend the Anaconda2 install location
-to PATH in your /home/sammy/.bashrc ? [yes|no]
+to PATH in your /home/username/.bashrc ? [yes|no]
 [no] >>>
 ```
 * Type yes so that you can use the conda command. You’ll next see the following output:
@@ -188,6 +186,9 @@ Backup directory: /home/username/.anaconda_backup/2017-04-25T191831
 rm -rf ~/anaconda2
 ```
 * Finally, you can remove the PATH line from your .bashrc file that Anaconda added. To do so, first open nano:
+```
+nano ~/.bashrc
+```
 * Then scroll down to the end of the file (if this is a recent install) or type CTRL + W to search for Anaconda. Delete or comment out the following lines:
 ```
 # added by Anaconda2 2-4.3 installer
