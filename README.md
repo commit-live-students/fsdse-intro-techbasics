@@ -2,24 +2,21 @@
 
 ![GitHub Logo](https://s3.ap-south-1.amazonaws.com/greyatom-social/logo.png)
 
-
-
 ## Lets Get Rolling - Student Pre-Read
-*
-
-
+Before this lesson , we recommend you go through
+* [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_(operating_system))
+* [Unix_shell](https://en.wikipedia.org/wiki/Unix_shell)
 
 ## Learning Objectives
 
 After this lesson, you'll be able to
-
-*
-*
-*
+* Navigate through files and folders
+* Do different action and with files and folders
+* Add/Edit Files using terminal editor
 
 ## Agenda
 
-*
+* List
 *
 *
 
@@ -27,8 +24,6 @@ After this lesson, you'll be able to
 
 *
 *
-
-
 
 ## Assignments
 * Clone repo from https://github.com/commit-live-students/fsdse-techbasics
