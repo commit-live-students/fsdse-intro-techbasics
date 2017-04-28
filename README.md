@@ -25,7 +25,7 @@ After this lesson, you'll be able to
 *
 *
 
-## Assignments
+## Assignments 1
 
 ### Navigating the Linux Filesystem & Working With Files and Directories
 * Clone repo from https://github.com/commit-live-students/fsdse-techbasics
@@ -52,22 +52,145 @@ After this lesson, you'll be able to
   - Italian Pizza
 * Now again repeat all above get exercises using head and tail commands. Result will be different this time as new two orders are added to list
 
+## Assignments 2
+
 ### Linux Users, Groups & Permissions
 
-#### Download Anaconda, make it executable
+Download Anaconda, make it executable
 
 * The best way to install Anaconda is to download the latest Anaconda installer bash script, verify it, and then run it.
 * Find the latest version of Anaconda for Python 2.7 at the [Anaconda Downloads Page](https://www.continuum.io/downloads))
 * Next, change to the /tmp directory on your server. This is a good directory to download ephemeral items, like the Anaconda bash script, which we won't need after running it.
 ```
-  cd /tmp
+cd /tmp
 ```
 * Use curl to download the link that you copied from the Anaconda website
 ```
-  curl -O https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
+curl -O https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
 ```
 * Now let make Anaconda file executable
 ```
-  chmod +x Anaconda2-4.3.1-Linux-x86_64.sh
+chmod +x Anaconda2-4.3.1-Linux-x86_64.sh
 ```
-* Note :: How to install and run Anaconda is covered in Anaconda section in detail
+* Note :: How to install and run Anaconda is covered in next section.
+
+## Assignments 3
+
+### install Anaconda
+
+* Now you ready have executable Anaconda bash script downloaded in previous assignment. Now let's go ahead and install it
+* Now we can run the script:
+```
+bash Anaconda2-4.3.1-Linux-x86_64.sh
+```
+* You’ll receive the following output:
+```
+output
+
+Welcome to Anaconda3 2-4.3 (by Continuum Analytics, Inc.)
+
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+```
+* Press ENTER to continue and then press ENTER to read through the license. Once you’re done reading the license, you’ll be prompted to approve the license terms:
+```
+output
+
+Do you approve the license terms? [yes|no]
+```
+* As long as you agree, type yes
+* At this point, you’ll be prompted to choose the location of the installation. You can press ENTER to accept the default location, or specify a different location to modify it
+```
+output
+
+Anaconda2 will now be installed into this location:
+/home/username/anaconda2
+
+  - Press ENTER to confirm the location
+  - Press CTRL-C to abort the installation
+  - Or specify a different location below
+
+[/home/username/anaconda2] >>>
+
+```
+* The installation process will continue, it may take some time. Once it’s complete you’ll receive the following output:
+```
+Output
+...
+installation finished.
+Do you wish the installer to prepend the Anaconda2 install location
+to PATH in your /home/sammy/.bashrc ? [yes|no]
+[no] >>>
+```
+* Type yes so that you can use the conda command. You’ll next see the following output:
+```
+Output
+
+Prepending PATH=/home/username/anaconda2/bin to PATH in /home/username/.bashrc
+A backup will be made to: /home/username/.bashrc-anaconda2.bak
+...
+
+```
+* You can also say No and can manually add Anaconda path to .bashrc file. Open your terminal and type below command
+```
+export PATH="/home/username/anaconda2/bin"
+```
+* This will add Anaconda path to .bashrc file. You can do it by editing .bashrc file using nano command and add path.
+* In order to activate the installation, you should source the ~/.bashrc file:
+```
+source ~/.bashrc
+```
+* Once you have done that, you can verify your install by making use of the conda command, for example with list:
+```
+conda list
+```
+* You’ll receive output of all the packages you have available through the Anaconda installation:
+```
+Output
+# packages in environment at /home/username/anaconda2:
+#
+_license                  1.1                      py35_1  
+_nb_ext_conf              0.3.0                    py35_0  
+alabaster                 0.7.9                    py35_0  
+...
+```
+Updating Anaconda
+* You should regularly ensure that Anaconda is up-to-date so that you are working with all the latest package releases.
+To do this, you should first update the conda utility:
+```
+conda update conda
+```
+* When prompted to do so, type y to proceed with the update.Once the update of conda is complete, you can update the Anaconda distribution:
+```
+conda update anaconda
+```
+* Again when prompted to do so, type y to proceed.This will ensure that you are using the latest releases of conda and Anaconda.
+
+Uninstalling Anaconda
+
+* If you are no longer using Anaconda and find that you need to uninstall it, you should start with the anaconda-clean module which will remove configuration files for when you uninstall Anaconda.
+```
+conda install anaconda-clean
+```
+* Type y when prompted to do so.
+* Once it is installed, you can run the following command. You will be prompted to answer y before deleting each one. If you would prefer not to be prompted, add --yes to the end of your command:
+```
+anaconda-clean
+```
+* This will also create a backup folder called .anaconda_backup in your home directory:
+```
+Output
+Backup directory: /home/username/.anaconda_backup/2017-04-25T191831
+```
+* You can now remove your entire Anaconda directory by entering the following command:
+```
+rm -rf ~/anaconda2
+```
+* Finally, you can remove the PATH line from your .bashrc file that Anaconda added. To do so, first open nano:
+* Then scroll down to the end of the file (if this is a recent install) or type CTRL + W to search for Anaconda. Delete or comment out the following lines:
+```
+# added by Anaconda2 2-4.3 installer
+export PATH="/home/username/anaconda2/bin:$PATH"
+```
+* When you’re done editing the file, type CTRL + X to exit and y to save changes.Anaconda is now removed from your server.
