@@ -26,6 +26,8 @@ After this lesson, you'll be able to
 *
 
 ## Assignments
+
+### Navigating the Linux Filesystem & Working With Files and Directories
 * Clone repo from https://github.com/commit-live-students/fsdse-techbasics
 * There is a multi cuisine hotel which take a order on phone and the orders are recorded in order.txt
 * Change directory to folder fsdse-techbasics
