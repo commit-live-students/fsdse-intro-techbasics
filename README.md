@@ -164,6 +164,29 @@ conda update conda
 conda update anaconda
 ```
 * Again when prompted to do so, type y to proceed.This will ensure that you are using the latest releases of conda and Anaconda.
+* Let's quick check our installation of anaconda using python script. NumPy is the fundamental package for scientific computing with Python which comes with default installation of anaconda.
+* Create a new file named "test_anaconda.py" and insert below code
+```
+def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) / 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quicksort(left) + middle + quicksort(right)
+
+print quicksort([3,6,8,10,1,2,1])
+```
+* Now run code by typing in terminal
+```
+python test_anaconda.py
+```
+* it shoulf output as below
+```
+output
+[1, 1, 2, 3, 6, 8, 10]
+```
 
 Uninstalling Anaconda
 
