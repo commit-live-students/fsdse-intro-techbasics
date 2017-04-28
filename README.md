@@ -51,3 +51,23 @@ After this lesson, you'll be able to
   - American Pizza
   - Italian Pizza
 * Now again repeat all above get exercises using head and tail commands. Result will be different this time as new two orders are added to list
+
+### Linux Users, Groups & Permissions
+
+#### Download Anaconda, make it executable
+
+* The best way to install Anaconda is to download the latest Anaconda installer bash script, verify it, and then run it.
+* Find the latest version of Anaconda for Python 3 at the [Anaconda Downloads Page](https://www.continuum.io/downloads))
+* Next, change to the /tmp directory on your server. This is a good directory to download ephemeral items, like the Anaconda bash script, which we won't need after running it.
+```
+  cd /tmp
+```
+* Use curl to download the link that you copied from the Anaconda website
+```
+  curl -O https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
+```
+* Now let make Anaconda file executable
+```
+  chmod +x Anaconda2-4.3.1-Linux-x86_64.sh
+```
+* How to install and run Anaconda is covered in next section
