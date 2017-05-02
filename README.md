@@ -250,6 +250,8 @@ print os.environ['GITHUB_TOKEN']
 * Watch this couple of videos
   - https://www.youtube.com/watch?v=xIuBmOufbls
   - https://www.youtube.com/watch?v=7_LPdttKXPc
+* Watch this videos for how a web browser builds and displays a web page
+  - https://www.youtube.com/watch?v=DuSURHrZG6I
 
 ## Assignment 6
 
