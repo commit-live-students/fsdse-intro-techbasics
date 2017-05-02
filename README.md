@@ -261,3 +261,18 @@ print os.environ['GITHUB_TOKEN']
   - [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 * Once your done with setting up SSH key for github create a new repo on your github account. Clone github repo using SSH url.
 * Do some changes in repo/file and try to push changes to github repo again. Now it should not ask any credentials while pushing changes to github repo as it must use your SSH key for credentials and authentication now.
+
+## Assignment 7
+* Download chrome applicatiom Postman from url https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en
+* For more info on postman watch videos here at https://www.youtube.com/watch?v=8veXJ9YGlFI&list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ
+* `GET` request
+  - Get user detail - https://api.github.com/users/PradeepJaiswar
+  - Get orgs repos - https://api.github.com/orgs/commit-live-students/repos
+  - Get repo info - https://api.github.com/repos/commit-live-students/fsdse-techbasics
+  - Get repo readme - https://api.github.com/repos/commit-live-students/fsdse-techbasics/readme
+  - Get repo contents info - https://api.github.com/repos/PradeepJaiswar/ember-mailbox/contents/
+  - Get repo file contents - https://api.github.com/repos/PradeepJaiswar/ember-mailbox/contents/package.json
+* Exercise
+  - [Create a file in repo ](https://developer.github.com/v3/repos/contents/#create-a-file)
+  - [Update a file in repo ](https://developer.github.com/v3/repos/contents/#update-a-file)
+  - [Delete a file in repo ](https://developer.github.com/v3/repos/contents/#delete-a-file)
