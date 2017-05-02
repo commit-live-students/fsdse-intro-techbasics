@@ -276,3 +276,4 @@ print os.environ['GITHUB_TOKEN']
   - [Create a file in repo using rest api](https://developer.github.com/v3/repos/contents/#create-a-file)
   - [Update a file in repo using rest api](https://developer.github.com/v3/repos/contents/#update-a-file)
   - [Delete a file in repo using rest api](https://developer.github.com/v3/repos/contents/#delete-a-file)
+* Note - Base url for all rest api is `https://api.github.com/`
