@@ -28,7 +28,7 @@ After this lesson, you'll be able to
 ## Assignment 1
 
 ### Navigating the Linux Filesystem & Working With Files and Directories
-* Clone repo from `https://github.com/commit-live-students/fsdse-techbasics`
+* Clone repo from https://github.com/commit-live-students/fsdse-techbasics
 * There is a multi cuisine hotel which take a order on phone and the orders are recorded in order.txt
 * Change directory to folder fsdse-techbasics
   - List down what there in folder
@@ -223,15 +223,15 @@ export PATH="/home/username/anaconda2/bin:$PATH"
 
 ### Setup github token in .profile
 
-* Many API's require you to acquire an access token. While you will need to use this access token in your application when accessing their API, you do not want to expose your token to users or anyone who has access to the code base of your application.
+* Many API's require you to acquire an access token. While you will need to use this access token in your application when accessing their API, you do not want to expose your token to users or anyone who has access to the code base of your application
 
 * The assignment here we will be using here to protect our API keys is what I like to call 'backside-secrets'. We will create an environment variable on our server that contains the API key that we want to protect. Whenever we need to access the key, we will use environment variable in code
 
-* Follow this article and get the  personal access token for github and set in .profile page so that it can be available in script code.
+* Follow this article and get the  personal access token for github and set in .profile page so that it can be available in script code
 ```
 https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
 ```
-* Once you have personal access token do the following at the command prompt.
+* Once you have personal access token, do the following at the command prompt
 ```
 echo set GITHUB_TOKEN='personal-access-token-here' >> ~/.profile
 ```
@@ -241,4 +241,4 @@ echo set GITHUB_TOKEN='personal-access-token-here' >> ~/.profile
 import os
 print os.environ['GITHUB_TOKEN']
 ```
-* Run your file using python `python test_env.py`. It should echo your previously set github token
+* Run your file using python `python test_env.py`. It should print your previously set github token
