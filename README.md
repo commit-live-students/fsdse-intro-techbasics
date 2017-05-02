@@ -273,6 +273,6 @@ print os.environ['GITHUB_TOKEN']
   - Get repo contents info - https://api.github.com/repos/PradeepJaiswar/ember-mailbox/contents/
   - Get repo file contents - https://api.github.com/repos/PradeepJaiswar/ember-mailbox/contents/package.json
 * Exercise
-  - [Create a file in repo ](https://developer.github.com/v3/repos/contents/#create-a-file)
-  - [Update a file in repo ](https://developer.github.com/v3/repos/contents/#update-a-file)
-  - [Delete a file in repo ](https://developer.github.com/v3/repos/contents/#delete-a-file)
+  - [Create a file in repo using rest api](https://developer.github.com/v3/repos/contents/#create-a-file)
+  - [Update a file in repo using rest api](https://developer.github.com/v3/repos/contents/#update-a-file)
+  - [Delete a file in repo using rest api](https://developer.github.com/v3/repos/contents/#delete-a-file)
