@@ -4,8 +4,8 @@
 
 ## Lets Get Rolling - Student Pre-Read
 Before this lesson , we recommend you go through
-* [Ubuntu operating_system](https://en.wikipedia.org/wiki/Ubuntu_(operating_system))
-* [Unix_shell](https://en.wikipedia.org/wiki/Unix_shell)
+* [Ubuntu Operating System](https://en.wikipedia.org/wiki/Ubuntu_(operating_system))
+* [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell)
 
 ## Learning Objectives
 
