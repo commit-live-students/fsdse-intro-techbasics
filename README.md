@@ -36,5 +36,5 @@ After this lesson, you'll be able to
 
 ### Post Reads
 * [Linux apt-get Command](https://www.computerhope.com/unix/apt-get.htm)
-* [Advanced_Packaging_Tool](https://en.wikipedia.org/wiki/Advanced_Packaging_Tool)
+* [Advanced Packaging Tool](https://en.wikipedia.org/wiki/Advanced_Packaging_Tool)
 
