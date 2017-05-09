@@ -1,6 +1,4 @@
-# fsdse-techbasics
-
-![GitHub Logo](https://s3.ap-south-1.amazonaws.com/greyatom-social/logo.png)
+![GitHub Logo](https://s3.ap-south-1.amazonaws.com/greyatom-social/GreyAtom-logo.png)
 
 ## Lets Get Rolling - Student Pre-Read
 Before this lesson , we recommend you go through
