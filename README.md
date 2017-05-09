@@ -35,5 +35,5 @@ After this lesson, you'll be able to
 ### Post Reads
 * [Linux apt-get Command](https://www.computerhope.com/unix/apt-get.htm)
 * [Advanced Packaging Tool](https://en.wikipedia.org/wiki/Advanced_Packaging_Tool)
-* [what should your .bashrc look like?](http://tldp.org/LDP/abs/html/sample-bashrc.html)
+* [What should your .bashrc look like?](http://tldp.org/LDP/abs/html/sample-bashrc.html)
 * [Linux Commands Cheat Sheet](https://raw.githubusercontent.com/commit-live-students/fsdse-intro-techbasics/master/linux-cmd-cheat-sheet.png)
