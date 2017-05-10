@@ -23,7 +23,7 @@ After this lesson, you'll be able to
 @[gslides](1DIhFJsiToKe8ahBKa4DN8XyGvsj3qAg4_V_kfT2G6DA)
 
 ## Assignments
-* [Assignment 1](https://github.com/commit-live-students/fsdse-techbasics-assignment-1)
+* [Assignment 1](/lesson/fsdse-techbasics-assignment-1)
 * [Assignment 2](https://github.com/commit-live-students/fsdse-techbasics-assignment-2)
 * [Assignment 3](https://github.com/commit-live-students/fsdse-techbasics-assignment-3)
 * [Assignment 4](https://github.com/commit-live-students/fsdse-techbasics-assignment-4)
