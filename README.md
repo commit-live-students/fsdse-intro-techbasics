@@ -37,3 +37,6 @@ After this lesson, you'll be able to
 * [Advanced Packaging Tool](https://en.wikipedia.org/wiki/Advanced_Packaging_Tool)
 * [What should your .bashrc look like?](http://tldp.org/LDP/abs/html/sample-bashrc.html)
 * [Linux Commands Cheat Sheet](https://raw.githubusercontent.com/commit-live-students/fsdse-intro-techbasics/master/linux-cmd-cheat-sheet.png)
+
+## Takeaway Assignment
+* [Get Started with SQL](https://github.com/commit-live-students/fsdse-rdbms-sql)
